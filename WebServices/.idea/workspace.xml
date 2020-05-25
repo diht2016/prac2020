@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="818fb1a0-2b48-4080-aa4a-19ee31d79d5e" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>parseInt</find>
+      <find>cache</find>
+    </findStrings>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1bgdIYRiCHFG1TwhhhxNQGcOSd5" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SearchEverywhereHistoryKey" value="Inte&#9;PSI&#9;JAVA://java.lang.Integer" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1582641400296" />
+    <property name="extract.method.default.visibility" value="private" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/ru/sbt/mipt/services" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Новая папка\WebServices" />
+      <recent name="C:\WebServices" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="ru.sbt.mipt.services" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ru.sbt.mipt.services.predictor" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Новая папка\WebServices\src\main\java\ru\sbt\mipt\services\predictor" />
+      <recent name="C:\Новая папка\WebServices\src\test\java\ru\sbt\mipt\services\weather" />
+      <recent name="C:\Новая папка\WebServices\src\main\java\ru\sbt\mipt\services\weather" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.RBCControllerTest.mockRestTemplateTest">
+    <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.sbt.mipt.services.Application" />
+      <module name="WebServices" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.sbt.mipt.services.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RBCControllerTest.mockRestTemplateTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="RBCParser" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.sbt.mipt.services.rbc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.sbt.mipt.services.rbc" />
+      <option name="MAIN_CLASS_NAME" value="ru.sbt.mipt.services.rbc.RBCControllerTest" />
+      <option name="METHOD_NAME" value="mockRestTemplateTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WeatherControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="WebServices" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.sbt.mipt.services.weather.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.sbt.mipt.services.weather" />
+      <option name="MAIN_CLASS_NAME" value="ru.sbt.mipt.services.weather.WeatherControllerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WeatherControllerTest.maxComputationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="WebServices" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.sbt.mipt.services.weather.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.sbt.mipt.services.weather" />
+      <option name="MAIN_CLASS_NAME" value="ru.sbt.mipt.services.weather.WeatherControllerTest" />
+      <option name="METHOD_NAME" value="maxComputationTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WeatherWebMockTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="WebServices" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.sbt.mipt.services.weather.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.sbt.mipt.services.weather" />
+      <option name="MAIN_CLASS_NAME" value="ru.sbt.mipt.services.weather.WeatherWebMockTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Application" />
+      <item itemvalue="JUnit.WeatherControllerTest" />
+      <item itemvalue="JUnit.WeatherControllerTest.maxComputationTest" />
+      <item itemvalue="JUnit.WeatherWebMockTest" />
+      <item itemvalue="JUnit.RBCControllerTest.mockRestTemplateTest" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.RBCControllerTest.mockRestTemplateTest" />
+        <item itemvalue="Application.Application" />
+        <item itemvalue="JUnit.WeatherWebMockTest" />
+        <item itemvalue="JUnit.WeatherControllerTest" />
+        <item itemvalue="JUnit.WeatherControllerTest.maxComputationTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="818fb1a0-2b48-4080-aa4a-19ee31d79d5e" name="Default Changelist" comment="" />
+      <created>1570109304088</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1570109304088</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="438" y="200" width="404" height="288" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1589646186837">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="438" y="200" width="404" height="288" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1280.680@0.0.1280.680" timestamp="1589646186837" />
+    <state width="1236" height="163" key="GridCell.Tab.0.bottom" timestamp="1589656579113">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1236" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1589656579113" />
+    <state width="1236" height="163" key="GridCell.Tab.0.center" timestamp="1589656579113">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1236" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1589656579113" />
+    <state width="1236" height="163" key="GridCell.Tab.0.left" timestamp="1589656579113">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1236" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1589656579113" />
+    <state width="1236" height="163" key="GridCell.Tab.0.right" timestamp="1589656579113">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1236" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1589656579113" />
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>WebServices</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>10</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: ch.qos.logback:logback-classic:1.2.3</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

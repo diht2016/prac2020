@@ -1,0 +1,21 @@
+version: '3'
+services:
+  rbc:
+    image: local_rbc_image
+    ports:
+      - "8181:8080"
+    depends_on:
+      - dbpostgresql
+  weather:
+    image: local_weather_image
+    ports:
+      - "8182:8080"
+  dbpostgresql:
+    image: postgres
+    restart: always
+    ports:
+      - "8190:5432"
+    environment:
+      POSTGRES_DB: testdb
+      POSTGRES_USER: adminadmin
+      POSTGRES_PASSWORD: pwdpwd

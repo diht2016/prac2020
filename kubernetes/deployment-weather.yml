@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: kube-weather
+  namespace: default
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: kube-weather
+  template:
+    metadata:
+      name: kube-weather
+      labels:
+        app: kube-weather
+    spec:
+      containers:
+        - name: kube-weather
+          image: docker-weather
+          imagePullPolicy: IfNotPresent
+      imagePullSecrets:
+        - name: testsecret

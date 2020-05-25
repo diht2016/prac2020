@@ -1,0 +1,28 @@
+version: '3'
+services:
+  rbc:
+    image: docker-rbc
+    build: ../docker/rbc
+    ports:
+      - "8081:8080"
+    depends_on:
+      - dbpostgresql
+  weather:
+    image: docker-weather
+    build: ../docker/weather
+    ports:
+      - "8082:8080"  
+  predict:
+    image: docker-predict
+    build: ../docker/predict
+    ports:
+      - "8083:8080"
+  dbpostgresql:
+    image: postgres
+    restart: always
+    ports:
+      - "8090:5432"
+    environment:
+      POSTGRES_DB: testdb
+      POSTGRES_USER: adminadmin
+      POSTGRES_PASSWORD: pwdpwd

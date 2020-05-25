@@ -1,0 +1,36 @@
+- hosts: app-predict-part
+  remote_user: edumfti
+  become: yes
+
+  vars:
+    ansible_become_user: root
+    ansible_become_password: aNSHaPi
+  
+  tasks:
+    - name: delete last root dir
+      shell: rm -rf ./edu/id
+
+    - name: create root dir
+      shell: mkdir ./edu/id
+
+    - name: create predict dir
+      shell: mkdir ./edu/id/predict
+
+    - name: deliver predict
+      copy:
+        src: ../docker/predict/Predict.jar
+        dest: ./edu/id/predict/
+
+    - name: deliver predict dockerfile
+      copy:
+        src: ../docker/predict/Dockerfile
+        dest: ./edu/id/predict/
+    
+    - name: build image for predict
+      docker_image:
+        name: local_predict_image
+        path: ./edu/id/predict/
+        source: build
+ 
+    - name: run docker
+      shell: sudo docker run -d local_predict_image

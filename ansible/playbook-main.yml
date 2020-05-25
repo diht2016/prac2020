@@ -1,0 +1,60 @@
+- hosts: app-base-part
+  remote_user: mftiedu
+  become: yes
+
+  vars:
+    ansible_become_user: root
+    ansible_become_password: cHONtic
+  
+  tasks:
+    - name: delete last root dir
+      shell: rm -rf ./edu/id
+
+    - name: create root dir
+      shell: mkdir ./edu/id
+
+    - name: create rbc dir
+      shell: mkdir ./edu/id/rbc
+
+    - name: create weather dir
+      shell: mkdir ./edu/id/weather
+
+    - name: deliver rbc
+      copy:
+        src: ../docker/rbc/RBCParser.jar
+        dest: ./edu/id/rbc/
+
+    - name: deliver rbc dockerfile
+      copy:
+        src: ../docker/rbc/Dockerfile
+        dest: ./edu/id/rbc/
+
+    - name: deliver weather
+      copy:
+        src: ../docker/weather/WeatherParser.jar
+        dest: ./edu/id/weather/
+  
+    - name: deliver weather dockerfile
+      copy:
+        src: ../docker/weather/Dockerfile
+        dest: ./edu/id/weather/
+
+    - name: build image for rbc module
+      docker_image:
+        name: local_rbc_image
+        path: ./edu/id/rbc
+        source: build
+
+    - name: build image for weather module
+      docker_image:
+        name: local_weather_image
+        path: ./edu/id/weather
+        source: build
+
+    - name: copy compose file
+      copy:
+        src: ./docker-compose-main.yml
+        dest: ./edu/id/
+  
+    - name: run docker compose
+      shell: sudo docker-compose -f ./edu/id/docker-compose-main.yml up -d
